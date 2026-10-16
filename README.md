@@ -19,6 +19,34 @@ A Bash-based backup automation tool that creates timestamped compressed archives
 - `tar`
 - Standard Unix utilities
 
+## Architecture
+
+The diagram below illustrates the Linux Backup Manager workflow, including source validation, archive creation, integrity verification, logging, and backup retention.
+
+![Linux Backup Manager Architecture](docs/diagrams/architecture.png)
+
+The editable diagram source is available here: [linux-backup-manager.drawio](docs/diagrams/linux-backup-manager.drawio).
+
+## Screenshots
+
+### 1. Successful Backup
+
+Demonstrates the creation and verification of a timestamped compressed backup archive.
+
+![Successful Backup](docs/screenshots/successful-backup.png)
+
+### 2. Backup Retention
+
+Shows the retention policy that keeps the seven newest matching backup archives.
+
+![Backup Retention](docs/screenshots/retention-policy.png)
+
+### 3. Automated Tests
+
+Displays the automated test results for backup creation, archive contents, invalid source handling, and backup retention.
+
+![Automated Tests](docs/screenshots/automated-tests.png)
+
 ## Usage
 
 Make the script executable:

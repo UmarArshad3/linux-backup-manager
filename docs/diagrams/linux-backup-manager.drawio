@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="6X-Q2j2m1EVmnJVqKaxX">
+    <mxGraphModel dx="818" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-13" edge="1" parent="1" source="rDlgJHkmCf6_RSUS1dmz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rDlgJHkmCf6_RSUS1dmz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h3 style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Source&amp;nbsp;Directory&lt;/font&gt;&lt;/h3&gt;&lt;p style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Files&amp;nbsp;to&amp;nbsp;protect&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="475" x="205" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-14" edge="1" parent="1" source="rDlgJHkmCf6_RSUS1dmz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="rDlgJHkmCf6_RSUS1dmz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-15" edge="1" parent="1" source="rDlgJHkmCf6_RSUS1dmz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.43;entryY=-0.048;entryDx=0;entryDy=0;" target="rDlgJHkmCf6_RSUS1dmz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;h3 style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;backup.sh&amp;nbsp;—&amp;nbsp;Bash&amp;nbsp;Automation&lt;/font&gt;&lt;/h3&gt;&lt;p style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Validate&amp;nbsp;paths&amp;nbsp;·&amp;nbsp;Create&amp;nbsp;timestamped&amp;nbsp;archive&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="330" x="277.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-16" edge="1" parent="1" source="rDlgJHkmCf6_RSUS1dmz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.39;entryY=-0.067;entryDx=0;entryDy=0;" target="rDlgJHkmCf6_RSUS1dmz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;p style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Integrity&amp;nbsp;Verification&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Validate&amp;nbsp;archive&amp;nbsp;with&amp;nbsp;tar&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="50" y="202.85" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-17" edge="1" parent="1" source="rDlgJHkmCf6_RSUS1dmz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Activity&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Logging&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Record&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;events&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;in&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;backup.log&lt;/font&gt;&lt;/p&gt;" link="&lt;p style=&quot;font-size: medium; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;Activity&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Logging&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: medium; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;Record&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;events&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;in&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;backup.log&lt;/span&gt;&lt;/p&gt;" id="rDlgJHkmCf6_RSUS1dmz-4">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1">
+            <mxGeometry height="60" width="300" x="470" y="202.85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-18" edge="1" parent="1" source="rDlgJHkmCf6_RSUS1dmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.402;entryY=-0.067;entryDx=0;entryDy=0;" target="rDlgJHkmCf6_RSUS1dmz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;h3 style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;Backup&amp;nbsp;Destination&lt;/font&gt;&lt;/h3&gt;&lt;p style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Verified&amp;nbsp;timestamped&amp;nbsp;.tar.gz&amp;nbsp;archives&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="350" x="267.5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h3 style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;Retention&amp;nbsp;Policy&lt;/font&gt;&lt;/h3&gt;&lt;p style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Keep&amp;nbsp;the&amp;nbsp;7&amp;nbsp;newest&amp;nbsp;matching&amp;nbsp;backups&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="410" x="230" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-7" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0],[0.765,0.093,0],[0.997,0.987,0],[0.274,0.985,0],[0.003,0.008,0]];" value="" vertex="1">
+          <mxGeometry height="50" width="45.71" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-8" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/preview/Azure_Cloud_Shell.svg;points=[[0.435,0.004,0],[0.5,0.993,0],[0,0.498,0],[1,0.814,0],[0.862,0.004,0],[0.952,0.953,0],[0.008,0.992,0],[0.008,0.004,0]];" value="" vertex="1">
+          <mxGeometry height="32.27" width="45.71" x="290" y="129.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-9" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#dae8fc;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/material-symbols/1/Domain_Verification.svg;labelBorderColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="45.71" width="45.71" x="70" y="207.14" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-10" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#0066CC;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.logs;" value="" vertex="1">
+          <mxGeometry height="45.71" width="33.41" x="498.3" y="210.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-11" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.box;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="290" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="rDlgJHkmCf6_RSUS1dmz-12" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#3399FF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.retention_policy;" value="" vertex="1">
+          <mxGeometry height="50" width="45.71" x="260" y="405" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
