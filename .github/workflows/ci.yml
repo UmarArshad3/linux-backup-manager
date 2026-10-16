@@ -1,0 +1,26 @@
+
+name: Linux Backup Manager CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: Validate and test Bash scripts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check Bash version
+        run: bash --version
+
+      - name: Check Bash syntax
+        run: |
+          bash -n backup.sh
+          bash -n tests/test-backup.sh
+
+      - name: Run automated tests
+        run: bash tests/test-backup.sh
