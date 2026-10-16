@@ -117,5 +117,17 @@ linux-backup-manager/
 - Configurable retention count
 - Exclusion patterns
 - Restore command
-- GitHub Actions CI testing
+
+## Continuous Integration
+
+This project uses GitHub Actions to automatically validate and test the Bash backup utility on an Ubuntu Linux runner.
+
+The CI workflow runs on pushes and pull requests and performs the following checks:
+
+- Validates Bash syntax for the backup script and test script.
+- Runs automated tests for backup creation, archive contents, invalid source handling, and backup retention.
+- Reports the workflow status through GitHub Actions.
+
+Workflow configuration: `.github/workflows/ci.yml`
+
 
